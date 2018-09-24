@@ -1,8 +1,8 @@
 # MADANVIL
 
 #Install 
-npm init\n
-npm install\n
+npm init<br />
+npm install<br />
 
 #Run
-npm start\n
+npm start<br />
