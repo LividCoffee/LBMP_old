@@ -1,4 +1,5 @@
-var reciver = require('./reciver.js');
+  var reciver = require('./reciver.js');
+setTimeout(function () {
 //var filename = str[0];
 //var count = str[1];
 const filename = ("RimWorld");
@@ -16,7 +17,6 @@ for (i = 1; i <= count; i++)
   var url = ("http://rabotyag.ga/games/" + filename + "/" + filename + ".zip." + i)
   else
   console.log("error - i = " + i)
-  break;
 
   var check = ("http://rabotyag.ga/games/" + filename + "/" + filename + "_" + i + ".MD5");
   l_url[i] = url;
@@ -24,3 +24,4 @@ for (i = 1; i <= count; i++)
   console.log(l_url[i]);
   console.log(l_check[i]);
 }
+}, 1000);

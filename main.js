@@ -1,8 +1,8 @@
-const {app, BrowserWindow, session} = require('electron')
+const {app, BrowserWindow, session} = require('electron');
 var links = require('./app/links');
 
   let win
- 
+
   function createWindow () {
     win =  new  BrowserWindow ({
 		 height: 660,
@@ -10,16 +10,16 @@ var links = require('./app/links');
 		 minHeight: 660,
 		 minWidth: 400,
 		 webPreferences : {
-			 nodeIntegration :  false 
+			 nodeIntegration :  false
 			 }
 	});
-	
+
 	webPreferences: {
-		nodeIntegration: true   
+		nodeIntegration: true
 	}
-	
+
 	win.setMenu(null);
-	
+
 	// Query all cookies.
       session.defaultSession.cookies.get({}, (error, cookies) => {
         //console.log(error, cookies)
@@ -27,7 +27,7 @@ var links = require('./app/links');
 
       // Query all cookies associated with a specific url.
       session.defaultSession.cookies.get({url: 'http://rabotyag.ga'}, (error, cookies) => {
-        console.log(error, cookies)
+        //console.log(error, cookies)
       })
 
       // Set a cookie with the given cookie data;
@@ -36,11 +36,11 @@ var links = require('./app/links');
       session.defaultSession.cookies.set(cookie, (error) => {
         if (error) console.error(error)
       })
-	
+
     win.loadURL('http://rabotyag.ga')
-	
+
     //win.webContents.openDevTools()
-  
+
     win.on('closed', () => {
       win = null
     })
@@ -54,7 +54,7 @@ var links = require('./app/links');
       app.quit()
     }
   })
-  
+
   app.on('activate', () => {
 
     if (win === null) {
