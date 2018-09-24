@@ -1,4 +1,4 @@
-var reciver = require('./app/reciver.js');
+var reciver = require('./reciver.js');
 var filename = str[0];
 var count = str[1];
 //const filename = ("RimWorld");
