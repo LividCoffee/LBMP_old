@@ -1,8 +1,8 @@
 var reciver = require('./reciver.js');
-var filename = str[0];
-var count = str[1];
-//const filename = ("RimWorld");
-//const count = (9);
+//var filename = str[0];
+//var count = str[1];
+const filename = ("RimWorld");
+const count = (9);
 var l_url = new Array();
 var l_check = new Array();
 var i;
