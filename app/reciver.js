@@ -3,7 +3,7 @@ request.get('http://rabotyag.ga/games/RimWorld/RimWorld.txt', function (error, r
     if (!error && response.statusCode == 200) {
         var txt = body;
         var str = txt.split("/n");
-        console.log(str[1], str[2]);
+        console.log(str[0], str[1]);
         // Continue with your processing here.
     }
 });
