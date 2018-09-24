@@ -11,8 +11,8 @@ app.post('/phpcallback', function(req, res) {
     console.log(content.msg);
     res.end('ok');
 
-    //var http = require('http');
-    //var fs = require('fs');
+    var http = require('http');
+    var fs = require('fs');
 
     var file = fs.createWriteStream("downloaded/" + content.msg);
     var request = http.get('http://localhost/' + content.msg, function(response) {
