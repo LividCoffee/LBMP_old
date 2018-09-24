@@ -1,7 +1,8 @@
 # MADANVIL
 
 # #Install 
-npm init
+# npm init
+# npm install
 
 # #Run
 npm start
