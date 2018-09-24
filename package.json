@@ -1,0 +1,42 @@
+{
+  "name": "madanvil",
+  "version": "1.0.0",
+  "description": "So Mad",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --arch=x64"
+  },
+  "author": "Beelow",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^2.0.10",
+    "electron-builder": "^20.28.4",
+    "electron-packager": "^12.1.2"
+  },
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "ajv-keywords": "^3.2.0",
+    "app": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "coffe-script": "0.0.1-security",
+    "cookie": "^0.3.1",
+    "electron-cookies": "^1.1.0",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "jquery": "^3.3.1",
+    "remote": "^0.2.6",
+    "socket.io": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LividCoffee/MADANVIL.git"
+  },
+  "keywords": [
+    "mad"
+  ],
+  "bugs": {
+    "url": "https://github.com/LividCoffee/MADANVIL/issues"
+  },
+  "homepage": "https://github.com/LividCoffee/MADANVIL#readme"
+}
