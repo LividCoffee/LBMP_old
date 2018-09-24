@@ -26,18 +26,18 @@ const {app, BrowserWindow, session} = require('electron')
       })
 
       // Query all cookies associated with a specific url.
-      session.defaultSession.cookies.get({url: 'http://localhost'}, (error, cookies) => {
+      session.defaultSession.cookies.get({url: 'http://rabotyag.ga'}, (error, cookies) => {
         console.log(error, cookies)
       })
 
       // Set a cookie with the given cookie data;
       // may overwrite equivalent cookies if they exist.
-      const cookie = {url: 'http://localhost', name: 'dummy_name', value: 'dummy'}
+      const cookie = {url: 'http://rabotyag.ga', name: 'dummy_name', value: 'dummy'}
       session.defaultSession.cookies.set(cookie, (error) => {
         if (error) console.error(error)
       })
 	
-    win.loadURL('http://localhost')
+    win.loadURL('http://rabotyag.ga')
 	
     //win.webContents.openDevTools()
   
