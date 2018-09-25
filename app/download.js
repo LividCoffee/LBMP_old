@@ -1,26 +1,26 @@
-var app = require('express')();
+var http = require('http');
 var fs = require('fs');
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-var bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+var filename = 'RimWorld';
 
-app.post('/phpcallback', function(req, res) {
-    var content = req.body;
-    console.log(content.msg);
-    res.end('ok');
 
-    var http = require('http');
-    var fs = require('fs');
+if (!fs.existsSync("./downloads/" + filename)){
+    fs.mkdirSync("./downloads/" + filename);
+}
 
-    var file = fs.createWriteStream("downloaded/" + content.msg);
-    var request = http.get('http://localhost/' + content.msg, function(response) {
-        response.pipe(file);
-    });
+var file = fs.createWriteStream("./downloads/" + filename + "/RimWorld.txt");
+var request = http.get("http://31.40.108.21/" + filename + "/" + filename + ".txt", function(response) {
+  response.pipe(file);
 });
 
-http.listen(8080, function(){
-  var addr = http.address();
-  console.log('app listening on ' + addr.address + ':' + addr.port);
-});
+console.log(file);
+
+/*
+reciver
+links
+download
+check
+download
+install
+remover
+*/

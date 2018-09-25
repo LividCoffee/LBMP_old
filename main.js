@@ -1,5 +1,5 @@
 const {app, BrowserWindow, session} = require('electron');
-var links = require('./app/links');
+var index = require('./app/index');
 
   let win
 

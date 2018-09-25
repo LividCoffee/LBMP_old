@@ -1,11 +1,7 @@
-  var reciver = require('./reciver.js');
+
 setTimeout(function () {
-//var filename = str[0];
-//var count = str[1];
-const filename = ("RimWorld");
-const count = (9);
-var l_url = new Array();
-var l_check = new Array();
+ l_url = new Array();
+ l_check = new Array();
 var i;
 for (i = 1; i <= count; i++)
 {
