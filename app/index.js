@@ -14,6 +14,6 @@ setTimeout(function () {
   {
   var check = require('./check.js');
   var download = require('./download.js');
-}*/
+  }*/
 
 }, 500);
