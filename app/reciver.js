@@ -3,7 +3,7 @@ request.get('http://31.40.108.21/RimWorld/RimWorld.txt', function (error, respon
     if (!error && response.statusCode == 200) {
         var txt = body;
         var str = txt.split('_');
-        console.log(str[0], str[1]);
+        //console.log(str[0], str[1]);
          filename = str[0];
          count = str[1];
     }
