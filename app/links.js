@@ -24,4 +24,4 @@ for (i = 1; i <= count; i++)
   console.log(l_url[i]);
   console.log(l_check[i]);
 }
-}, 1000);
+}, 250);
