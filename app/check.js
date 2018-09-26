@@ -1,7 +1,6 @@
-var check = 0;
-check = 1;
+function done(conf) {
+  conf = 1;
+  console.log(conf);
+}
 
-
-
-if (check == 0)
-var download = require('./download.js');
+done(conf);

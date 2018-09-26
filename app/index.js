@@ -2,17 +2,22 @@ var fs = require('fs');
 
 Host = "http://31.40.108.21"
 var reciver = require('./reciver.js');
-var links = require('./links');
-
+var links = require('./links.js');
+//var check = require('./check.js');
+//var install = require('./install.js');
 setTimeout(function () {
   if (!fs.existsSync("./downloads/" + filename)){
       fs.mkdirSync("./downloads/" + filename);
   };
   n = 0;
   var checkerload = require('./checkerload.js');
+
+/*
   for (n = 1; n <= count; n++)
   {
-  var check = require('./check.js');
+   conf = 0;
+   if (check.done == 0)
+   var download = require('./download.js');
   }
-
+*/
 }, 500);
