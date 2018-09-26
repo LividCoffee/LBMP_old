@@ -9,5 +9,16 @@ var file = fs.createWriteStream("./downloads/" + filename + "/" + filename + "_"
 var request = http.get(l_check[n] , function(response)
 {
 response.pipe(file, { end: false });
+var a = false;
+file.end(a = true);
 });
+
+
+while (a != true)
+{
+  setTimeout(function () {
+    console.log(n);
+  }, 500);
+}
+
 };

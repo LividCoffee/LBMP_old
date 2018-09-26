@@ -17,7 +17,7 @@ for (i = 1; i <= count; i++)
   var check = (Host + "/"  + filename + "/" + filename + "_" + i + ".MD5");
   l_url[i] = url;
   l_check[i] = check;
-  console.log(l_url[i]);
-  console.log(l_check[i]);
+  //console.log(l_url[i]);
+  //console.log(l_check[i]);
 }
 }, 250);
