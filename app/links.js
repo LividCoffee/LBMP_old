@@ -6,15 +6,15 @@ var i;
 for (i = 1; i <= count; i++)
 {
   if (i<10)
-  var url = (Host + filename + "/" + filename + ".zip.00"+ i)
+  var url = (Host + "/"  + filename + "/" + filename + ".zip.00"+ i)
   else if (i<100)
-  var url = (Host + filename + "/" + filename + ".zip.0" + i)
+  var url = (Host + "/"  + filename + "/" + filename + ".zip.0" + i)
   else if (i<1000)
-  var url = (Host + filename + "/" + filename + ".zip." + i)
+  var url = (Host + "/"  + filename + "/" + filename + ".zip." + i)
   else
   console.log("error - i = " + i)
 
-  var check = (Host + filename + "/" + filename + "_" + i + ".MD5");
+  var check = (Host + "/"  + filename + "/" + filename + "_" + i + ".MD5");
   l_url[i] = url;
   l_check[i] = check;
   console.log(l_url[i]);
