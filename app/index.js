@@ -10,10 +10,9 @@ setTimeout(function () {
   };
   n = 0;
   var checkerload = require('./checkerload.js');
-  /*for (n = 1; n <= count; n++)
+  for (n = 1; n <= count; n++)
   {
   var check = require('./check.js');
-  var download = require('./download.js');
-  }*/
+  }
 
 }, 500);
