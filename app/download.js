@@ -5,7 +5,7 @@ var fs = require('fs');
 
 
 var file = fs.createWriteStream("./downloads/" + filename + "/RimWorld.txt");
-var request = http.get("http://31.40.108.21/" + filename + "/" + filename + ".txt", function(response)
+var request = http.get(Host + filename + "/" + filename + ".txt", function(response)
 {
   response.pipe(file);
 });

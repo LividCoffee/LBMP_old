@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-
+Host = "http://31.40.108.21"
 var reciver = require('./reciver.js');
 var links = require('./links');
 
