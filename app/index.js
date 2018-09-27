@@ -3,7 +3,7 @@ var fs = require('fs');
 Host = "http://31.40.108.21"
 var reciver = require('./reciver.js');
 var links = require('./links.js');
-//var check = require('./check.js');
+//var checker = require('./checker.js');
 //var install = require('./install.js');
 setTimeout(function () {
   if (!fs.existsSync("./downloads/" + filename)){
@@ -15,8 +15,8 @@ setTimeout(function () {
 /*
   for (n = 1; n <= count; n++)
   {
-   conf = 0;
-   if (check.done == 0)
+   check = 0;
+   if (checker.done == 0)
    var download = require('./download.js');
   }
 */
