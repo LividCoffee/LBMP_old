@@ -14,9 +14,9 @@ for (i = 1; i <= count; i++)
   else
   console.log("error - i = " + i)
 
-  var check = (Host + "/"  + filename + "/" + filename + "_" + i + ".MD5");
+  var check_url = (Host + "/"  + filename + "/" + filename + "_" + i + ".MD5");
   l_url[i] = url;
-  l_check[i] = check;
+  l_check[i] = check_url;
   //console.log(l_url[i]);
   //console.log(l_check[i]);
 }
