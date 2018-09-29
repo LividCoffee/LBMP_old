@@ -30,8 +30,8 @@ namespace LBMP
         {
             if (env.IsDevelopment())
             {
-                app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
             }
             else
             {
@@ -46,7 +46,13 @@ namespace LBMP
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+<<<<<<< HEAD
             Bootstrap();
+=======
+
+            // Open the Electron-Window here
+            Task.Run(async () => await Electron.WindowManager.CreateWindowAsync());
+>>>>>>> e1486c94b6a6d74ef4d164cdd89600bb44321046
         }
 
         public async void Bootstrap()
@@ -55,4 +61,5 @@ namespace LBMP
         }
 
     }
+
 }
