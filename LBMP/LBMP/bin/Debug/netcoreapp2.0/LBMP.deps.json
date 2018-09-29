@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7c6491b782d123313f51c5d8be7df63ef9431974"
+    "signature": "0c1973ab435df5b29670ad35d5925de955c80952"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v2.0": {
       "LBMP/1.0.0": {
         "dependencies": {
+          "ElectronNET.API": "0.0.9",
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.NETCore.App": "2.0.0"
         },
@@ -31,6 +32,32 @@
         },
         "compile": {
           "LBMP.dll": {}
+        }
+      },
+      "ElectronNET.API/0.0.9": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.1",
+          "SocketIoClientDotNet": "1.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/ElectronNET.API.dll": {}
+        },
+        "compile": {
+          "lib/netcoreapp2.0/ElectronNET.API.dll": {}
+        }
+      },
+      "EngineIoClientDotNet/1.0.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1",
+          "System.Collections.Immutable": "1.4.0",
+          "System.Net.Requests": "4.3.0",
+          "WebSocket4Net": "0.15.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/EngineIoClientDotNet.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/EngineIoClientDotNet.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -2548,6 +2575,21 @@
           }
         }
       },
+      "SocketIoClientDotNet/1.0.3": {
+        "dependencies": {
+          "EngineIoClientDotNet": "1.0.3",
+          "Newtonsoft.Json": "10.0.1",
+          "SuperSocket.ClientEngine.Core": "0.8.0.13",
+          "System.Collections.Immutable": "1.4.0",
+          "WebSocket4Net": "0.15.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SocketIoClientDotNet.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/SocketIoClientDotNet.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.7",
@@ -2651,6 +2693,24 @@
         },
         "compile": {
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
+        }
+      },
+      "SuperSocket.ClientEngine.Core/0.8.0.13": {
+        "dependencies": {
+          "System.Collections.Specialized": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Security.Cryptography.X509Certificates": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SuperSocket.ClientEngine.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/SuperSocket.ClientEngine.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -3073,6 +3133,33 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
+      "System.Net.Requests/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Net.Http": "4.3.0",
+          "System.Net.Primitives": "4.3.0",
+          "System.Net.WebHeaderCollection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        },
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
       "System.Net.Security/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -3123,6 +3210,14 @@
           "System.Net.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Net.WebHeaderCollection/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
         }
       },
       "System.Numerics.Vectors/4.4.0": {},
@@ -3780,6 +3875,23 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "WebSocket4Net/0.15.0": {
+        "dependencies": {
+          "SuperSocket.ClientEngine.Core": "0.8.0.13",
+          "System.Linq": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/WebSocket4Net.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.3/WebSocket4Net.dll": {}
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -3977,6 +4089,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ElectronNET.API/0.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3pnUih15LRNaaRC7FD1PT2AJH5c+XNg18FnyFb1NL0NK9mLMVnUEc9nrXzFfslQ3OwBms8pM/fFJPWJ4FymZXw==",
+      "path": "electronnet.api/0.0.9",
+      "hashPath": "electronnet.api.0.0.9.nupkg.sha512"
+    },
+    "EngineIoClientDotNet/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z66VYDtrITcMcE4h94d4wRvglorK/6ExXZ+1+ZppsG5DQxbFfLNO/iNmZWXOHFL1e5eVOoeYcKzsHiIaLu0fbA==",
+      "path": "engineioclientdotnet/1.0.3",
+      "hashPath": "engineioclientdotnet.1.0.3.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -5280,6 +5406,13 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
+    "SocketIoClientDotNet/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5BXFCkOuRAQ5wuM+482Yri1IodUEVa1+/6w2ibUYqisAg9tTdPY2K6c/6HlpZcW3OhSTSgIXpSJk0GGC/Uc8gw==",
+      "path": "socketioclientdotnet/1.0.3",
+      "hashPath": "socketioclientdotnet.1.0.3.nupkg.sha512"
+    },
     "SQLitePCLRaw.bundle_green/1.1.7": {
       "type": "package",
       "serviceable": true,
@@ -5328,6 +5461,13 @@
       "sha512": "sha512-qrfSB1BnmM17V20A4yvvNA0HNiDgnBd/CcjaeMKMA4qtup1uuBUMyhl20oj31fRVo71E/fXTbmQCuM9ytBJs6w==",
       "path": "stackexchange.redis.strongname/1.2.4",
       "hashPath": "stackexchange.redis.strongname.1.2.4.nupkg.sha512"
+    },
+    "SuperSocket.ClientEngine.Core/0.8.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FATcQa1QXsb1aUpXyD323FYqA5UGZZcylVXQK3j2Y6rJpKoi9AYmkckLHnoGp2HYs1jqXcm+7W7jBb8yA6QdmQ==",
+      "path": "supersocket.clientengine.core/0.8.0.13",
+      "hashPath": "supersocket.clientengine.core.0.8.0.13.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
@@ -5581,6 +5721,13 @@
       "path": "system.net.primitives/4.3.0",
       "hashPath": "system.net.primitives.4.3.0.nupkg.sha512"
     },
+    "System.Net.Requests/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OZNUuAs0kDXUzm7U5NZ1ojVta5YFZmgT2yxBqsQ7Eseq5Ahz88LInGRuNLJ/NP2F8W1q7tse1pKDthj3reF5QA==",
+      "path": "system.net.requests/4.3.0",
+      "hashPath": "system.net.requests.4.3.0.nupkg.sha512"
+    },
     "System.Net.Security/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -5594,6 +5741,13 @@
       "sha512": "sha512-m6icV6TqQOAdgt5N/9I5KNpjom/5NFtkmGseEH+AK/hny8XrytLH3+b5M8zL/Ycg3fhIocFpUMyl/wpFnVRvdw==",
       "path": "system.net.sockets/4.3.0",
       "hashPath": "system.net.sockets.4.3.0.nupkg.sha512"
+    },
+    "System.Net.WebHeaderCollection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XZrXYG3c7QV/GpWeoaRC02rM6LH2JJetfVYskf35wdC/w2fFDFMphec4gmVH2dkll6abtW14u9Rt96pxd9YH2A==",
+      "path": "system.net.webheadercollection/4.3.0",
+      "hashPath": "system.net.webheadercollection.4.3.0.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.4.0": {
       "type": "package",
@@ -5972,6 +6126,13 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "WebSocket4Net/0.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ln4cE+dTNyTpJWKZa2lesgMTevTx1YWMkSGL2LZW4pKSvgacufum70dfMYRCKylnmb17cmaslwoIbQlrk3i2NQ==",
+      "path": "websocket4net/0.15.0",
+      "hashPath": "websocket4net.0.15.0.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",

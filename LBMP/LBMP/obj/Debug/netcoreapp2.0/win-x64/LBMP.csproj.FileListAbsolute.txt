@@ -1,0 +1,15 @@
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\electron.manifest.json
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\hostpolicy.dll
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\hostfxr.dll
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.exe
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.deps.json
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.runtimeconfig.json
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.runtimeconfig.dev.json
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.dll
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\win-x64\LBMP.pdb
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\LBMP.csproj.CoreCompileInputs.cache
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\UserSecretsAssemblyInfo.cs
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\LBMP.AssemblyInfoInputs.cache
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\LBMP.AssemblyInfo.cs
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\LBMP.dll
+C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\win-x64\LBMP.pdb
