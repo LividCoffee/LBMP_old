@@ -6,6 +6,21 @@ C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.csproj.CoreCompileInputs.cache
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.AssemblyInfoInputs.cache
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.AssemblyInfo.cs
+<<<<<<< HEAD
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.pdb
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.dll
 C:\Users\MISHA\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.pdb
+=======
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\electron.manifest.json
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.deps.json
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.runtimeconfig.json
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.runtimeconfig.dev.json
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.dll
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\bin\Debug\netcoreapp2.0\LBMP.pdb
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.csprojAssemblyReference.cache
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.csproj.CoreCompileInputs.cache
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.AssemblyInfoInputs.cache
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.AssemblyInfo.cs
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.dll
+C:\Users\danil\Documents\GitHub\MADANVIL\LBMP\LBMP\obj\Debug\netcoreapp2.0\LBMP.pdb
+>>>>>>> 8fa2e4106ad5864a05f169a73b32d67804240e22
